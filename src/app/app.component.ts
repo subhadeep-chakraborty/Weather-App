@@ -95,6 +95,7 @@ export class AppComponent implements OnInit{
   }
 
   setUIData(weatherData: any){
+    this.currTemp = weatherData.temp;
     this.currTime= new Date(weatherData.datetime).toLocaleTimeString('en-IN', {
       day: 'numeric', month: 'long', year: 'numeric'
     }).replace(/ /g, ' ').replace(' at',',') || 'no-data';
