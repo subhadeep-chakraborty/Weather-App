@@ -7,7 +7,12 @@ This app is currently live. Follow link : https://eloquent-sunburst-40bd07.netli
 Things I learned developing this app: 
 
 --> Dependency Injection
+
 --> Integrate API using angular HttpClient
+
 --> Angular Reactive forms
+
 --> API call error handling 
+
 --> Used promise for chaining API calls
+
